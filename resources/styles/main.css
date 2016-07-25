@@ -1,0 +1,54 @@
+#myNavbar {
+  font-family: Antic,Futura,"Trebuchet MS",Arial,sans-serif;
+  font-size: 1.1em;
+}
+
+.navbar a:hover {
+  background-color: #e6e6e6 !important;
+}
+
+header {
+  padding: 140px 0 140px;
+  background: url(../images/SplitShire-header-bkg.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  }
+
+header h1 {
+  color: #E7FEFE;
+}
+
+.card {
+  padding: 100px 0 100px;
+}
+
+.fa-github-square {
+  color: #333;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-twitter-square {
+  color: #1da1f2;
+}
+
+.fa-linkedin-square {
+  color: #069;
+}
+
+.fa-fire {
+  color: #006400;
+}
+
+#contact_info {
+  color: black;
+}
+
+footer p {
+  margin-right: 20px;
+}
