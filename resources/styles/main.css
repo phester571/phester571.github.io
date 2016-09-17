@@ -1,54 +1,74 @@
+body {
+    position: relative;
+}
+
 #myNavbar {
-  font-family: Antic,Futura,"Trebuchet MS",Arial,sans-serif;
-  font-size: 1.1em;
+    font-family: Antic,Futura,"Trebuchet MS",Arial,sans-serif;
+    font-size: 1.1em;
+}
+
+#brandImage, #brandImage span {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#brandImage {
+    margin-right: 5px;
 }
 
 .navbar a:hover {
-  background-color: #e6e6e6 !important;
+    background-color: #e6e6e6 !important;
 }
 
 header {
-  padding: 140px 0 140px;
-  background: url(../images/SplitShire-header-bkg.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  }
+    padding: 140px 0 140px;
+    background: url(../images/SplitShire-header-bkg.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
 
 header h1 {
-  color: #E7FEFE;
+    color: #E7FEFE;
 }
 
 .card {
-  padding: 100px 0 100px;
+    padding: 20px 0 20px;
 }
 
 .fa-github-square {
-  color: #333;
+    color: #333;
 }
 
 .fa-facebook-square {
-  color: #3b5998;
+    color: #3b5998;
 }
 
 .fa-twitter-square {
-  color: #1da1f2;
+    color: #1da1f2;
 }
 
 .fa-linkedin-square {
-  color: #069;
+    color: #069;
 }
 
 .fa-fire {
-  color: #006400;
+    color: #006400;
 }
 
 #contact_info {
-  color: black;
+    color: #000000;
+}
+
+footer {
+    color: #fff;
+    background-color: #252222;
+    height: 50px;
+    line-height: 50px;
 }
 
 footer p {
-  margin-right: 20px;
+    margin-right: 20px;
 }

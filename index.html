@@ -8,31 +8,33 @@
       <link rel="icon" type="image/x-icon" href="./resources/images/favicon.ico">
       <link rel="shortcut icon" type="image/x-icon" href="./resources/images/favicon.ico">
 
-      <link rel="stylesheet" type="text/css" href="./resources/styles/main.css">
+      <link rel="stylesheet" href="./resources/styles/reset.css" type="text/css">
       <link rel="stylesheet" href="./vendors/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="./resources/styles/main.css" type="text/css" >
 
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
       <!-- Optional theme -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
   </head>
-  <body class="bg" data-spy="scroll" data-target="#myNavbar" data-offset=50>
-    <div id="myNavbar" class="container-fluid">
+  <!--<body class="bg" data-spy="scroll" data-target="#myNavbar" data-offset=50>-->
+  <body class="bg">
+
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a href="#" class="navbar-brand">My Portfolio</a>
+          <div class="container" id="myNavbar">
+              <div class="navbar-header">
+                  <a class="navbar-brand" href="#"><img src=".\resources\images\favicon.ico" alt="Shamrock Logo" id="brandImage"><span>Philip</span></a>
+              </div>
+
+              <div class="collapse navbar-collapse navbar-right">
+                  <ul class="nav navbar-nav">
+                      <li><a href="#about">About Me</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </div>
           </div>
-          <div class="navbar-collapse navbar-right">
-            <ul class="nav navbar-nav">
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
       </nav>
-    </div>
 
     <header>
       <div class="container text-center">
@@ -41,79 +43,26 @@
         </div>
       </div>
     </header>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
     <main>
       <!-- About me section -->
       <div class="container">
         <div class="card container" id="about">
           <h2>About</h2>
-          <p>
-            Some text about me
-          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id massa porttitor, mattis ligula quis, hendrerit sem. Maecenas semper quam viverra justo cursus, eget facilisis dolor varius. Duis condimentum cursus ultrices. Vivamus magna justo, egestas id ultrices ultricies, ultrices in leo. Sed consectetur faucibus viverra. Duis gravida lorem arcu, vel porttitor justo porta sed. Vestibulum mollis, augue in imperdiet imperdiet, sapien mauris placerat diam, quis eleifend eros mi laoreet sem. Vivamus convallis dictum leo, et egestas arcu ornare et. Etiam ornare varius libero eget lobortis.</p>
+          <p>Maecenas faucibus commodo metus vitae dignissim. Sed ullamcorper purus nec ipsum condimentum congue. Duis mi est, aliquam ultrices vulputate in, mattis at erat. Suspendisse finibus nunc in lectus gravida pretium. Nulla metus ipsum, semper non tellus ut, porttitor molestie arcu. Pellentesque ante turpis, venenatis ut tellus eget, accumsan tincidunt libero. Duis sit amet arcu eros. Suspendisse tempus mollis ornare. Ut imperdiet id nibh vitae tristique. Donec et sollicitudin est, nec ultricies mi. Nulla mattis libero id metus euismod accumsan. Cras sed tortor tempus, pulvinar risus eget, eleifend diam. Maecenas vitae orci eget nisi pretium lobortis. Nulla aliquam pulvinar consequat. Donec sed metus urna. Mauris condimentum, purus sit amet euismod ultrices, dui ipsum congue nulla, a vulputate ex nulla in risus.</p>
+          <p>Proin id turpis enim. Ut dignissim ex lorem, ac venenatis ligula pharetra et. Sed a urna vehicula, dapibus quam quis, ultricies lectus. Ut efficitur, neque in commodo sollicitudin, arcu tortor eleifend nisi, nec malesuada tellus augue quis lacus. In in nibh massa. Vestibulum faucibus sem a purus tempor lacinia. Nam bibendum neque vel ornare vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed porta tristique mauris at scelerisque.</p>
+          <p>Sed placerat ultricies massa a luctus. Phasellus venenatis tincidunt arcu, nec vehicula justo. Morbi in feugiat nisl. Nulla ullamcorper sem est, id tincidunt magna finibus et. Duis fermentum ligula pellentesque, cursus risus ac, eleifend nisi. Suspendisse luctus, eros vitae rhoncus luctus, elit nisi iaculis ipsum, eget pellentesque diam nunc eu nisl. Nam in ornare dui. Suspendisse potenti. Pellentesque lobortis eget sapien sed consequat. Duis suscipit vitae diam ac congue. Mauris rhoncus felis a neque consectetur dapibus. Etiam ultricies sollicitudin felis, vel convallis velit. Phasellus sagittis lacus dui, vel placerat eros ultrices nec.</p>
+          <p>Donec ac sodales mauris. Nam pulvinar, nibh id porttitor accumsan, ante nisl ullamcorper purus, id tincidunt elit lectus eu lorem. Donec volutpat euismod purus id hendrerit. Nam ut dictum risus. Aenean sagittis dui sit amet iaculis tempor. Nunc aliquam nisi leo, et placerat odio vehicula eget. In imperdiet felis non nibh interdum, in tincidunt lectus ultrices.</p>
         </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-        <!-- My skills section -->
-        <div class="card container" id="skills">
-          <h2>Skills</h2>
-          <p>Some words about my skills</p>
+
+        <!-- My portfolio section -->
+        <div class="card container" id="portfolio">
+          <h2>Portfolio</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in suscipit velit, in venenatis elit. In et nibh magna. Proin vel nisl ornare, finibus justo at, consequat elit. In tortor sem, iaculis at ipsum id, pulvinar iaculis dui. Curabitur molestie velit lacus, eu ullamcorper lectus gravida eu. Cras scelerisque dui mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non consectetur orci. Mauris quis nibh semper, elementum lacus eget, fringilla ex. Suspendisse ac mi quis felis condimentum euismod.</p>
+          <p>Ut sed arcu sit amet justo scelerisque cursus. Morbi porta nulla sit amet nibh accumsan aliquam. Aenean porttitor risus sed arcu ornare, lacinia efficitur odio tincidunt. Phasellus sagittis nibh vel euismod rutrum. Duis scelerisque ultrices ipsum, eu finibus ante consequat vitae. Praesent porta feugiat orci, sed viverra arcu posuere sit amet. Praesent dapibus auctor odio eu vulputate.</p>
+          <p>Nulla tempus iaculis diam sed iaculis. Praesent elit nulla, sagittis vitae fringilla id, fermentum non sem. Integer mattis diam magna, ac porttitor lorem feugiat eu. Aliquam ut feugiat ligula. Aenean placerat efficitur nisl id pretium. Nam eu cursus felis. In id volutpat nunc. Morbi mattis justo at lacinia commodo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque a rhoncus quam, at ultrices purus. Proin in magna in mi rutrum auctor ut id leo. Aliquam accumsan nec odio at hendrerit. Nam semper erat quis vestibulum interdum.</p>
         </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
         <!-- How to contact me section -->
@@ -126,7 +75,7 @@
             <li><a href="https://github.com/phester571" target="_blank"><i class="fa fa-3x fa-github-square" title="GitHub"></i></a></li>
             <li><a href="https://www.facebook.com/phil.murphy.98" target="_blank"><i class="fa fa-3x fa-facebook-square" title="Facebook"></i></a></li>
             <li><a href="https://twitter.com/phester571" target="_blank"><i class="fa fa-3x fa-twitter-square" title="Twitter"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/philip-murphy-a7b372110" target="_blank"><i class="fa fa-3x fa-linkedin-square" title="Linked In"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/philip-murphy-a7b372110" target="_blank"><i class="fa fa-3x fa-linkedin-square" title="LinkedIn"></i></a></li>
             <li><a href="https://www.freecodecamp.com/phester571" target="_blank"><i class="fa fa-3x fa-fire" title="Free Code Camp"></i></a></li>
           </ul>
         </div>
@@ -136,13 +85,12 @@
 
     <footer>
       <div class="col-sm12 text-right">
-        <p>
-          &copy; 2016 Philip Murphy
-        </p>
+        <p>&copy; 2016 Philip Murphy.</p>
       </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="./resources/js/main.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </body>
